@@ -1,38 +1,332 @@
-.App {
-  text-align: center;
+* {
+  background-color: #c3c3c3;
+  font-family: Sarpanch;
 }
+@media screen and (max-width: 1920px) {
+  button {
+    cursor: pointer;
+    font-weight: bold;
+  }
+  .divtitle {
+    display: flex;
+    justify-content: center;
+  }
+  .gaicos {
+    font-size: 40px;
+    letter-spacing: 12px;
+    color: #181818;
+    font-weight: 800;
+  }
+  .alldiv {
+    height: 100%;
+  }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+  .divsubtitle {
+    display: flex;
+    justify-content: center;
+  }
+  .alldivsub {
+    height: 100%;
+  }
+  .sub {
+    font-size: 68px;
+    text-align: center;
+    width: 72%;
+    letter-spacing: 3px;
+    color: #181818;
+    line-height: 10vh;
+
+    font-weight: 100;
+  }
+  .divdescription {
+    height: 37vh;
+  }
+  .divbtnon {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+  }
+  .online {
+    width: 400px;
+    font-size: 22px;
+    background-color: black;
+    border: none;
+    height: 6vh;
+    border-radius: 5px;
+    color: #a1a1a1;
+    letter-spacing: 2px;
+  }
+
+  .divanel {
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    gap: 10rem;
+    height: 100%;
+    margin: 8rem;
+    margin-top: 11rem;
+  }
+  .subanel {
+    font-size: 32px;
+    width: 600px;
+    font-weight: 100;
+    color: #181818;
+
+    letter-spacing: 3px;
+    line-height: 4vh;
+    margin-bottom: 0;
+  }
+  .price {
+    font-size: 42px;
+
+    font-weight: 300;
+    letter-spacing: 5px;
+    color: black;
+    line-height: 9vh;
+    margin-top: 0;
+    margin-bottom: 0;
+    height: 10vh;
+  }
+  .btnbuy {
+    width: 380px;
+    height: 6vh;
+
+    font-size: 22px;
+    color: #a1a1a1;
+    letter-spacing: 4px;
+
+    border: none;
+
+    border-radius: 5px;
+    letter-spacing: 2px;
+
+    font-weight: bold;
+    background-color: black;
+  }
+  @keyframes leaves {
+    0% {
+      transform: scale(1);
+      -webkit-transform: scale(1);
+    }
+    100% {
+      transform: scale(1.1);
+      -webkit-transform: scale(1.1);
+    }
+  }
+  .img1 {
+    width: 400px;
+    animation: leaves 3s ease-in-out infinite alternate;
+    -webkit-animation: leaves 3s ease-in-out infinite alternate;
+  }
+  .img2 {
+    width: 400px;
+    animation: leaves 3s ease-in-out infinite alternate;
+    -webkit-animation: leaves 3s ease-in-out infinite alternate;
+  }
+  .img3 {
+    width: 400px;
+    animation: leaves 3s ease-in-out infinite alternate;
+    -webkit-animation: leaves 3s ease-in-out infinite alternate;
+  }
+  .subdiv {
+    display: flex;
+    justify-content: center;
+  }
+  .subpromo {
+    letter-spacing: 2px;
+    font-size: 50px;
+    width: 1000px;
+    text-align: center;
+    font-weight: 100;
+    color: #181818;
+  }
+  .divpromo {
+    height: 100%;
+  }
+  .clickpromo {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  .btnpromo {
+    width: 370px;
+    font-size: 22px;
+    background-color: BLACK;
+    border: none;
+    border-radius: 5px;
+    height: 6vh;
+
+    letter-spacing: 2px;
+    color: #a1a1a1;
+  }
+  .textpromo {
+    font-size: 28px;
+    font-weight: 100;
+    letter-spacing: 4px;
+  }
+  .divinfo {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 7rem;
+    height: 100%;
+  }
+  .divinfowpp {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 3rem;
+    align-items: center;
+    margin-bottom: 5rem;
+  }
+  .allinfo {
+    height: 100%;
+  }
+  .infos {
+    font-weight: 100;
+    letter-spacing: 2px;
+  }
+  .wppimg {
+    width: 50px;
+  }
+  .btnwpp {
+    width: 280px;
+    font-size: 22px;
+    background-color: BLACK;
+    border: none;
+    border-radius: 5px;
+    height: 6vh;
+    letter-spacing: 2px;
+
+    letter-spacing: 2px;
+    color: #a1a1a1;
+  }
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+@media screen and (max-width: 1700px) {
+  .sub {
+    font-size: 50px;
+    width: 1050px;
+    line-height: 8vh;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media screen and (max-width: 1400px) {
+  .img1 {
+    width: 350px;
   }
-  to {
-    transform: rotate(360deg);
+  .img2 {
+    width: 330px;
+  }
+  .img3 {
+    width: 390px;
+  }
+}
+@media screen and (max-width: 1300px) {
+  .sub {
+    font-size: 40px;
+    width: 850px;
+    line-height: 6vh;
+  }
+  .subpromo {
+    font-size: 30px;
+    width: 700px;
+  }
+  .textpromo {
+    font-size: 23px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .divanel {
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    gap: 2rem;
+    margin: 1rem;
+    margin-top: 4rem;
+  }
+  .divbtnon {
+    margin-bottom: 10rem;
+  }
+  .alldiv {
+  }
+  .img3 {
+    width: 280px;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .sub {
+    font-size: 30px;
+    width: 650px;
+    line-height: 5.5vh;
+  }
+
+  .online {
+    width: 350px;
+    font-size: 19px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .sub {
+    font-size: 20px;
+    width: 470px;
+    line-height: 4.5vh;
+  }
+  .subpromo {
+    font-size: 22px;
+    width: 600px;
+  }
+  .infos {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 700px) {
+}
+@media screen and (max-width: 600px) {
+  .img1 {
+    width: 200px;
+  }
+  .img2 {
+    width: 170px;
+  }
+  .img3 {
+    width: 150px;
+  }
+  .btnbuy {
+    width: 340px;
+    font-size: 18px;
+  }
+  .subanel {
+    font-size: 16px;
+    width: 330px;
+  }
+  .gaicos {
+    letter-spacing: 1px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .subpromo {
+    font-size: 32px;
+    letter-spacing: 1px;
+    width: 350px;
+  }
+  .textpromo {
+    font-size: 15px;
+  }
+  .infos {
+    font-size: 16px;
+  }
+  .divbtnon {
+    margin-bottom: 10rem;
+  }
+  .sub {
+    font-size: 32px;
+    letter-spacing: 1.5px;
+    width: 350px;
   }
 }
