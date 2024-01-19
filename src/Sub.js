@@ -3,7 +3,7 @@ export default function Sub() {
     <div className="divpromo">
       <div className="subdiv">
         <h2 className="subpromo">
-          CADASTRE-SE E RECEBA PROMOÇÕES REFERENTES A NOSSOS PRODUTOS.
+          CADASTRE-SE PARA RECEBER PROMOÇÕES EXCLUSIVAS.
         </h2>
       </div>
       <div className="clickpromo">

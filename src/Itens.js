@@ -10,7 +10,10 @@ export default function Itens() {
           <h2 className="subanel">
             ANEL DE VEDAÇÃO 6895 PARA RESPIRADOR 3800 - 3M
           </h2>
-          <h3 className="price">R$ 7,90</h3>
+          <div className="divprice">
+            <h3 className="rs">R$</h3>
+            <h3 className="price">7,99</h3>
+          </div>
           <button className="btnbuy">COMPRAR PRODUTO</button>
         </div>
       </div>
@@ -20,7 +23,10 @@ export default function Itens() {
           <h2 className="subanel">
             ANEL DE VEDAÇÃO PARA BACIA SANITÁRIA NOVA GERAÇÃO CENSI ÚNICO
           </h2>
-          <h3 className="price">R$ 19,90</h3>
+          <div className="divprice">
+            <h3 className="rs">R$</h3>
+            <h3 className="price">19,99</h3>
+          </div>
           <button className="btnbuy">COMPRAR PRODUTO</button>
         </div>
       </div>
@@ -29,7 +35,10 @@ export default function Itens() {
         <img className="img3" src={anelthree}></img>
         <div className="divdescription">
           <h2 className="subanel">ANEL DE VEDAÇÃO ORING ENCAPSULADO</h2>
-          <h3 className="price">R$ 2,99</h3>
+          <div className="divprice">
+            <h3 className="rs">R$</h3>
+            <h3 className="price">2,99</h3>
+          </div>
           <button className="btnbuy">COMPRAR PRODUTO</button>
         </div>
       </div>

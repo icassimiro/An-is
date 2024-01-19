@@ -3,7 +3,7 @@ export default function Subtitle() {
     <div className="alldivsub">
       <div className="divsubtitle">
         <h2 className="sub">
-          OTIMIZE SEUS PROCESSOS COM ANÉIS DE VEDAÇÃO QUE COMBINAM INOVAÇÃO E
+          OTIMIZE SEUS PROCESSOS COM ANÉIS DE VEDAÇÃO, QUE COMBINAM INOVAÇÃO E
           QUALIDADE.
         </h2>
       </div>

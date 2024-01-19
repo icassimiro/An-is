@@ -1,12 +1,10 @@
-@import url("https://fonts.googleapis.com/css2?family=Advent+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Lekton:ital,wght@0,400;0,700;1,400&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Red+Rose:wght@300;400;500;600;700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Red+Rose:wght@300;400;500;600;700&family=Sarpanch&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Istok+Web:ital,wght@0,400;0,700;1,400;1,700&family=Red+Rose:wght@300;400;500;600;700&family=Sarpanch&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Jura:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Sen:wght@400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mitr:wght@200;300;400;500&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Red+Rose:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
 body {
   margin: 0;
-  font-family: -apple-system, "Istok Web", "Sarpanch", "Red Rose", "Lekton",
-    "Advent Pro", "Libre Caslon Display", "Red Hat Display",
+  font-family: -apple-system, "Sen", "Red Rose", "Montserrat", "Jura",
     "Stint Ultra Expanded", BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;

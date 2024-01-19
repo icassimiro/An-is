@@ -1,11 +1,12 @@
 * {
-  background-color: #c3c3c3;
-  font-family: Sarpanch;
+  background-color: black;
+  font-family: Red Rose;
 }
 @media screen and (max-width: 1920px) {
   button {
     cursor: pointer;
-    font-weight: bold;
+    font-weight: 500;
+    font-family: montserrat;
   }
   .divtitle {
     display: flex;
@@ -29,17 +30,23 @@
     height: 100%;
   }
   .sub {
-    font-size: 68px;
+    font-size: 54px;
     text-align: center;
-    width: 72%;
-    letter-spacing: 3px;
-    color: #181818;
-    line-height: 10vh;
+    width: 60%;
+    letter-spacing: 2px;
+    color: #a77f1c;
+    line-height: 9vh;
+    opacity: 0.7;
 
-    font-weight: 100;
+    font-weight: 200;
   }
   .divdescription {
     height: 37vh;
+    display: flex;
+    flex-direction: column;
+    align-items: Center;
+
+    text-align: center;
   }
   .divbtnon {
     display: flex;
@@ -50,13 +57,13 @@
   }
   .online {
     width: 400px;
-    font-size: 22px;
-    background-color: black;
+    font-size: 18px;
+    background-color: #f0f0f2;
     border: none;
     height: 6vh;
     border-radius: 5px;
-    color: #a1a1a1;
-    letter-spacing: 2px;
+    color: #343434;
+    letter-spacing: 3px;
   }
 
   .divanel {
@@ -70,41 +77,42 @@
     margin-top: 11rem;
   }
   .subanel {
-    font-size: 32px;
-    width: 600px;
-    font-weight: 100;
-    color: #181818;
+    font-size: 23px;
+    width: 580px;
+    font-weight: 300;
+    color: #a1a1a1;
 
-    letter-spacing: 3px;
+    letter-spacing: 2px;
     line-height: 4vh;
     margin-bottom: 0;
+    font-family: Montserrat;
   }
   .price {
     font-size: 42px;
 
-    font-weight: 300;
+    font-weight: 100;
     letter-spacing: 5px;
-    color: black;
+    color: #f0f0f2;
     line-height: 9vh;
-    margin-top: 0;
-    margin-bottom: 0;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
     height: 10vh;
+    font-family: "Sen";
   }
   .btnbuy {
     width: 380px;
     height: 6vh;
 
-    font-size: 22px;
-    color: #a1a1a1;
+    font-size: 18px;
+    color: #343434;
     letter-spacing: 4px;
 
     border: none;
 
     border-radius: 5px;
-    letter-spacing: 2px;
+    letter-spacing: 3px;
 
-    font-weight: bold;
-    background-color: black;
+    background-color: #f0f0f2;
   }
   @keyframes leaves {
     0% {
@@ -137,11 +145,14 @@
   }
   .subpromo {
     letter-spacing: 2px;
-    font-size: 50px;
+    font-size: 54px;
     width: 1000px;
     text-align: center;
-    font-weight: 100;
-    color: #181818;
+    font-weight: 200;
+    line-height: 9vh;
+
+    color: #a77f1c;
+    opacity: 0.8;
   }
   .divpromo {
     height: 100%;
@@ -154,19 +165,21 @@
   }
   .btnpromo {
     width: 370px;
-    font-size: 22px;
-    background-color: BLACK;
+    font-size: 18px;
+    background-color: #f0f0f2;
     border: none;
     border-radius: 5px;
     height: 6vh;
 
-    letter-spacing: 2px;
-    color: #a1a1a1;
+    letter-spacing: 3px;
+    color: #545454;
   }
   .textpromo {
-    font-size: 28px;
-    font-weight: 100;
-    letter-spacing: 4px;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    color: #a1a1a1;
+    font-family: Red Rose;
   }
   .divinfo {
     display: flex;
@@ -175,6 +188,27 @@
     align-items: center;
     margin-top: 7rem;
     height: 100%;
+  }
+  .icons {
+    color: #a1a1a1;
+    font-size: 50px;
+    background-color: transparent;
+  }
+  .iconwpp {
+    font-size: 30px;
+    background-color: transparent;
+  }
+  .divprice {
+    display: flex;
+    align-items: Center;
+    gap: 0.5rem;
+  }
+  .rs {
+    font-size: 28px;
+    font-weight: 100;
+    color: #a1a1a1;
+    font-family: "Sen";
+    letter-spacing: 5px;
   }
   .divinfowpp {
     display: flex;
@@ -188,23 +222,30 @@
     height: 100%;
   }
   .infos {
-    font-weight: 100;
+    font-weight: 400;
     letter-spacing: 2px;
+    font-size: 20px;
+    color: #a1a1a1;
+    font-family: Red Rose;
   }
   .wppimg {
     width: 50px;
   }
   .btnwpp {
     width: 280px;
-    font-size: 22px;
-    background-color: BLACK;
+    font-size: 18px;
+
     border: none;
     border-radius: 5px;
     height: 6vh;
-    letter-spacing: 2px;
+    letter-spacing: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
 
-    letter-spacing: 2px;
-    color: #a1a1a1;
+    color: #545454;
+    background-color: #f0f0f2;
   }
 }
 @media screen and (max-width: 1700px) {
@@ -233,7 +274,8 @@
     line-height: 6vh;
   }
   .subpromo {
-    font-size: 30px;
+    font-size: 40px;
+    line-height: 6vh;
     width: 700px;
   }
   .textpromo {
@@ -265,11 +307,18 @@
     width: 650px;
     line-height: 5.5vh;
   }
+  .subpromo {
+    font-size: 30px;
+    width: 650px;
+    line-height: 5.5vh;
+  }
 
   .online {
-    width: 350px;
-    font-size: 19px;
+    width: 370px;
+    font-size: 18px;
   }
+}
+@media screen and (max-width: 1100px) {
 }
 @media screen and (max-width: 800px) {
   .sub {
@@ -278,8 +327,9 @@
     line-height: 4.5vh;
   }
   .subpromo {
-    font-size: 22px;
-    width: 600px;
+    font-size: 20px;
+    width: 470px;
+    line-height: 4.5vh;
   }
   .infos {
     font-size: 20px;
@@ -302,8 +352,10 @@
     font-size: 18px;
   }
   .subanel {
-    font-size: 16px;
-    width: 330px;
+    font-size: 18px;
+    width: 370px;
+    line-height: 3.5vh;
+    font-weight: 400;
   }
   .gaicos {
     letter-spacing: 1px;
@@ -311,22 +363,31 @@
 }
 @media screen and (max-width: 500px) {
   .subpromo {
-    font-size: 32px;
+    font-size: 22px;
     letter-spacing: 1px;
-    width: 350px;
+    width: 380px;
+    font-weight: 400;
+    opacity: 0.7;
   }
   .textpromo {
-    font-size: 15px;
+    font-size: 19px;
+    font-weight: 400;
   }
   .infos {
-    font-size: 16px;
+    font-size: 19px;
+    font-weight: 400;
   }
   .divbtnon {
     margin-bottom: 10rem;
   }
   .sub {
-    font-size: 32px;
-    letter-spacing: 1.5px;
+    font-size: 22px;
+    letter-spacing: 1px;
     width: 350px;
+    font-weight: 400;
+    opacity: 0.7;
+  }
+  .btnpromo {
+    width: 340px;
   }
 }
