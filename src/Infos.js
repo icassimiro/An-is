@@ -10,11 +10,16 @@ export default function Infos() {
       </div>
       <div className="divinfowpp">
         <h2 className="infos">PRECISA DE AJUDA?</h2>
-
-        <button className="btnwpp">
-          WHATSAPP
-          <FaWhatsapp className="iconwpp" />
-        </button>
+        <a target="_blank" href="https://wa.me/31997100742">
+          <button
+            target="_blank"
+            href="https://wa.me/31992837879"
+            className="btnwpp"
+          >
+            WHATSAPP
+            <FaWhatsapp className="iconwpp" />
+          </button>
+        </a>
       </div>
     </div>
   );

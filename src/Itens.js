@@ -15,10 +15,11 @@ export default function Itens() {
             <h3 className="rs">R$</h3>
             <h3 className="price">7,99</h3>
           </div>
-          <button className="btnbuy">COMPRAR PRODUTO</button>
+          <a target="_blank" href="https://wa.me/31992837879">
+            <button className="btnbuy">COMPRAR PRODUTO</button>
+          </a>
         </div>
       </div>
-     
 
       <div className="divanel">
         <img className="img3" src={anelthree}></img>
@@ -30,7 +31,9 @@ export default function Itens() {
             <h3 className="rs">R$</h3>
             <h3 className="price">2,99</h3>
           </div>
-          <button className="btnbuy">COMPRAR PRODUTO</button>
+          <a target="_blank" href="https://wa.me/31992837879">
+            <button className="btnbuy">COMPRAR PRODUTO</button>
+          </a>
         </div>
       </div>
       <div className="divanel">
@@ -43,7 +46,9 @@ export default function Itens() {
             <h3 className="rs">R$</h3>
             <h3 className="price">2,99</h3>
           </div>
-          <button className="btnbuy">COMPRAR PRODUTO</button>
+          <a target="_blank" href="https://wa.me/31992837879">
+            <button className="btnbuy">COMPRAR PRODUTO</button>
+          </a>
         </div>
       </div>
       <div className="divanel">
@@ -56,7 +61,9 @@ export default function Itens() {
             <h3 className="rs">R$</h3>
             <h3 className="price">19,99</h3>
           </div>
-          <button className="btnbuy">COMPRAR PRODUTO</button>
+          <a target="_blank" href="https://wa.me/31992837879">
+            <button className="btnbuy">COMPRAR PRODUTO</button>
+          </a>
         </div>
       </div>
     </div>

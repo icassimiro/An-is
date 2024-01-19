@@ -8,7 +8,9 @@ export default function Subtitle() {
         </h2>
       </div>
       <div className="divbtnon">
-        <button className="online">ATENDIMENTO ONLINE</button>
+        <a target="_blank" href="https://wa.me/31992837879">
+          <button className="online">ATENDIMENTO ONLINE</button>
+        </a>
       </div>
     </div>
   );

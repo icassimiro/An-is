@@ -20,6 +20,9 @@
       opacity: 1;
     }
   }
+  a {
+    text-decoration: none;
+  }
   button {
     cursor: pointer;
     font-weight: 500;
