@@ -18,19 +18,7 @@ export default function Itens() {
           <button className="btnbuy">COMPRAR PRODUTO</button>
         </div>
       </div>
-      <div className="divanel">
-        <img className="img1" src={anelone}></img>
-        <div className="divdescription">
-          <h2 className="subanel">
-            ANEL DE VEDAÇÃO PARA BACIA SANITÁRIA NOVA GERAÇÃO CENSI ÚNICO.
-          </h2>
-          <div className="divprice">
-            <h3 className="rs">R$</h3>
-            <h3 className="price">19,99</h3>
-          </div>
-          <button className="btnbuy">COMPRAR PRODUTO</button>
-        </div>
-      </div>
+     
 
       <div className="divanel">
         <img className="img3" src={anelthree}></img>
@@ -54,6 +42,19 @@ export default function Itens() {
           <div className="divprice">
             <h3 className="rs">R$</h3>
             <h3 className="price">2,99</h3>
+          </div>
+          <button className="btnbuy">COMPRAR PRODUTO</button>
+        </div>
+      </div>
+      <div className="divanel">
+        <img className="img1" src={anelone}></img>
+        <div className="divdescription">
+          <h2 className="subanel">
+            ANEL DE VEDAÇÃO PARA BACIA SANITÁRIA NOVA GERAÇÃO CENSI ÚNICO.
+          </h2>
+          <div className="divprice">
+            <h3 className="rs">R$</h3>
+            <h3 className="price">19,99</h3>
           </div>
           <button className="btnbuy">COMPRAR PRODUTO</button>
         </div>
