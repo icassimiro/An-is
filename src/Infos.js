@@ -1,6 +1,6 @@
 import { FaWhatsapp } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
-import wpp from "./images/wpp.png";
+
 export default function Infos() {
   return (
     <div className="allinfo">

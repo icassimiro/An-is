@@ -8,6 +8,9 @@ export default function Sub() {
       </div>
       <div className="clickpromo">
         <h3 className="textpromo">DIGITE SEU E-MAIL</h3>
+        <div>
+          <hr className="hr"></hr>
+        </div>
         <button className="btnpromo">CADASTRAR E-MAIL</button>
       </div>
     </div>

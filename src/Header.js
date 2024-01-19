@@ -1,7 +1,8 @@
+import logo from "./images/logo.png";
 export default function Header() {
   return (
     <div className="divtitle">
-      <h2 className="gaicos">GAICOS VEDAÇÕES</h2>
+      <img className="logoimg" src={logo}></img>
     </div>
   );
 }
