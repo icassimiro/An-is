@@ -60,6 +60,13 @@
   .alldivsub {
     height: 100%;
   }
+  .divsimbol {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    margin-bottom: 8rem;
+    margin-top: 12rem;
+  }
   .sub {
     font-size: 54px;
     text-align: center;
@@ -78,6 +85,9 @@
     align-items: Center;
 
     text-align: center;
+  }
+  .logosimbol {
+    width: 150px;
   }
   .divbtnon {
     display: flex;
@@ -454,6 +464,13 @@
     width: 380px;
     font-weight: 100;
     opacity: 0.7;
+  }
+  .divsimbol {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    margin-bottom: 5rem;
+    margin-top: 6rem;
   }
   .textpromo {
     font-size: 19px;
